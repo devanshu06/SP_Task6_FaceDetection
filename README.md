@@ -1,13 +1,13 @@
-# Launching-AWS-Resources-using-Terraform-using-Face-Recognition
+# Detecting face and sending Mail, whatsapp message & launching ec2 instance using Terraform
 
-## Need to do:
+## Changes to do before running the code:
 
-* Update `phone number` in `WhatsApp.py` file.
-* Update mail-id (sender and receiver) and password in `mail.py` file.
+* Update `phone number` in `sendWhatsApp.py` file.
+* Update mail-id (sender and receiver) and password in the FaceRecognition.ipynb file where `sendemail.sendemail ` is used.
 
 ## Run code
 
-*** Configure AWS for Terraform
+*** `configure AWS` in CMD to configure AWS to Launch the ec2 instance using the Terraform 
 
 ## Run
 
@@ -23,8 +23,10 @@ Face_Recognition_model_creation.ipynb
 Face_Recognition.ipynb
 ```
 
-#### This will recognize face and run respective functions.
+#### This will recognize face and run respective functions stored in the below files.
 
-* Terraform ( AWS orchestration )
-* Mail
-* WhatsApp
+* AWS.tf
+* sendemail.py
+* sendWhatsApp.py
+
+## Youtube Video Link: https://youtu.be/iNnq8lYN7lY
