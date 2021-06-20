@@ -13,7 +13,7 @@ resource "aws_instance" "ec2" {
 
 resource "aws_ebs_volume" "task-6storage" {
 	availability_zone = aws_instance.ec2.availability_zone
-	size = 1 
+	size = 5
 	tags = {
 	       Name = "volumefortask-6"
 	}
